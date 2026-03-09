@@ -18,9 +18,25 @@
     --foreground: #ededed;
   }
 }
-
+/*
 body {
   background: var(--background);
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
+}*/
+body{
+font-family: Arial, Helvetica, sans-serif;
+background:#f5f7fa;
+color:#1f2937;
+}
+
+button{
+background:#1f2937;
+color:white;
+border:none;
+border-radius:6px;
+}
+
+button:hover{
+background:#374151;
 }
