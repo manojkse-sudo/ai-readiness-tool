@@ -43,7 +43,14 @@ router.push("/results");
 
 return(
 
-<div style={{padding:"40px",maxWidth:"800px",margin:"auto",fontFamily:"Arial"}}>
+//<div style={{padding:"40px",maxWidth:"800px",margin:"auto",fontFamily:"Arial"}}>
+
+<div style={{maxWidth:"900px",
+margin:"40px auto",
+background:"white",
+padding:"40px",
+borderRadius:"10px",
+boxShadow:"0 10px 25px rgba(0,0,0,0.1)"}}>
 
 <h1>AI Readiness Assessment</h1>
 
@@ -67,6 +74,8 @@ onChange={()=>updateAnswer(i,v)}
 ))}
 
 </div>
+
+
 
 ))}
 

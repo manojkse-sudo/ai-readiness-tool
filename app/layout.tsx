@@ -21,13 +21,34 @@ export default function RootLayout({
   children,
 }: Readonly<{
   children: React.ReactNode;
-}>) {
+}>) 
+{
   return (
     <html lang="en">
-      <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
-      >
+      <body>
+
+        <header
+          style={{
+            background:"#0f172a",
+            color:"white",
+            padding:"16px 40px",
+            display:"flex",
+            alignItems:"center"
+          }}
+        >
+
+          <img
+            src="/aikym-logo.png"
+            alt="AIKYM"
+            style={{height:"40px",marginRight:"12px"}}
+          />
+
+          <h2 style={{margin:0}}>AI-KYM AI Readiness Assessment</h2>
+
+        </header>
+
         {children}
+
       </body>
     </html>
   );
